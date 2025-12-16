@@ -16,7 +16,7 @@ from playwright.sync_api import sync_playwright
 # ==================== 配置 ====================
 CLAW_CLOUD_URL = "https://eu-central-1.run.claw.cloud"
 SIGNIN_URL = f"{CLAW_CLOUD_URL}/signin"
-DEVICE_VERIFY_WAIT = 30
+DEVICE_VERIFY_WAIT = 90
 
 
 class Telegram:
